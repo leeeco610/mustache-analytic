@@ -1,0 +1,23 @@
+{
+  "name": "node-mustache-analytic",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node --harmony app.js"
+  },
+  "dependencies": {
+    "mustache": "^2.3.0",
+    "opn": "^4.0.2",
+    "ora": "^0.4.1",
+    "shelljs": "^0.7.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  },
+  "author": "leeeco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leeeco610/node-mustache-analytic/issues"
+  },
+  "homepage": "https://github.com/leeeco610/node-mustache-analytic#readme"
+}
