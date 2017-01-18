@@ -3,9 +3,7 @@ var fs = require('fs');
 var path = require('path');
 var ora = require('ora');
 
-var CONFIG = {
-    watch_folder: path.join(__dirname, 'src/mustache')
-};
+var CONFIG = require('./src/config');
 
 var spinner = ora('Watch for ' + CONFIG.watch_folder + '...');
 spinner.start();
