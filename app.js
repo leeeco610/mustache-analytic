@@ -1,4 +1,5 @@
 require('shelljs/global');
+alert(1123213);
 var fs = require('fs');
 var path = require('path');
 var ora = require('ora');
